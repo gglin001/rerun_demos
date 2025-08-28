@@ -1,0 +1,12 @@
+[workspace]
+authors = ["Allen Guo <guosonglin001@gmail.com>"]
+channels = ["conda-forge"]
+name = "rerun_demos"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+rerun-sdk = ">=0.24.1,<0.25"
+python = "==3.13"
